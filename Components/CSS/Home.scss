@@ -1,0 +1,63 @@
+.home{
+    width: 100%;
+    height: fit-content;
+    padding: 50px;
+    background-color: rgb(235, 154, 235);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    >article{
+        border-radius: 8px;
+        background-color: white;
+        box-shadow:
+            0 1px 1px hsl(0deg 0% 0% / 0.075),
+            0 2px 2px hsl(0deg 0% 0% / 0.075),
+            0 4px 4px hsl(0deg 0% 0% / 0.075),
+            0 8px 8px hsl(0deg 0% 0% / 0.075),
+            0 16px 16px hsl(0deg 0% 0% / 0.075);
+        display: flex;
+        align-items: center;
+        width: 70%;
+        justify-content: center;
+        height: 50vh;
+        >form{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            >.buttons{
+                background-color: rgb(243, 43, 43);
+                color: white;
+                cursor: pointer;
+                &:hover{
+                    background-color: rgb(240, 86, 86);
+                    font-size: 1.1em;
+                    font-weight: bold;
+
+                }
+            }
+            
+
+            >input{
+                padding: 1rem;
+                border: none;
+                font-size: 1rem;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                width: 60%;
+                border-radius: 5px;
+                background-color: rgb(218, 212, 217);
+            }
+        }
+    }
+
+    >section{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

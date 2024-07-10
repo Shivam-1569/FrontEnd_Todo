@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    >h1{
+        width: 100%;
+        margin-left: 2rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    >article{
+        width: 20vw;
+        display: flex;
+        padding: 1rem;
+        gap: 20px;
+        justify-content: space-around;
+        margin-right: 2rem;
+        
+
+        >.links{
+            padding: 1rem;
+            text-decoration: none;
+            font-size: 1rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            &:hover{
+                background-color: rgb(249, 92, 92);
+                color:white;
+            }
+        }
+    }
+}
